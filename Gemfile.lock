@@ -188,12 +188,12 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
-  factory_bot_rails
-  faker
+  factory_bot_rails (~> 6.2)
+  faker (~> 3.2)
   puma (~> 5.0)
-  rack-cors
+  rack-cors (~> 2.0, >= 2.0.1)
   rails (~> 7.0.6)
-  rspec-rails
+  rspec-rails (~> 6.0, >= 6.0.3)
   sqlite3 (~> 1.4)
   tzinfo-data
 
